@@ -28,3 +28,8 @@ PATH=$PATH:$HOME/.local/bin:$HOME/bin
 
 export PATH
 
+# Initialization for FDK command line tools.Tue Dec 19 17:40:30 2017
+FDK_EXE="/Users/ca-kmns/bin/FDK/Tools/osx"
+PATH=${PATH}:"/Users/ca-kmns/bin/FDK/Tools/osx"
+export PATH
+export FDK_EXE

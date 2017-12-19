@@ -49,3 +49,6 @@ commands/
 .config/fisherman/
 .config/gcloud/
 
+.subversion/
+.terraform.d/
+.vim/
