@@ -6,7 +6,7 @@
 .*swp
 .bash_sessions
 .boto
-.config
+#.config
 .gsutil
 .viminfo
 .DS_Store
@@ -38,4 +38,14 @@ commands/
 .znc/
 .ssh/
 .netrc
+
+.config/com.add0n.node/
+.config/fish/completions/
+.config/fish/conf.d/
+.config/fish/config.fish.backup
+.config/fish/fishd.d0817aa2dc1a
+.config/fish/fishfile
+.config/fish/functions/
+.config/fisherman/
+.config/gcloud/
 
