@@ -29,5 +29,7 @@ set laststatus=2
 """ #### file open
 set modelines=2
 
-
+" for plugins #### ========================================
+" for plugin pathogen #### ======================================== 
+execute pathogen#infect()
 
