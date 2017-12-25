@@ -49,6 +49,7 @@ commands/
 .config/fish/functions/
 .config/fisherman/
 .config/gcloud/
+.config/karabiner/
 
 .subversion/
 .terraform.d/

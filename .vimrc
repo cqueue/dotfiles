@@ -16,10 +16,16 @@ set statusline=%F
 set statusline+=%m
 " is readonly
 set statusline+=%r
+" file number
+set statusline+=\ [\#%n]
 " right shift
 set statusline+=%=
+"ホスト名表示
+set statusline+=%{matchstr(hostname(),'\\w\\+')}@\ 
+" filetype
+set statusline+=%y\ 
 " file encoding
-set statusline+=[ENC:%{&fileencoding}]
+set statusline+=[ENC:%{&fileencoding}]\ 
 " file row/rowtotal
 set statusline+=[ROW:%l/%L]
 " always show statusline
@@ -28,6 +34,26 @@ set laststatus=2
 
 """ #### file open
 set modelines=2
+set autoread
+set autochdir
+
+""" #### window setting
+set cursorline
+set cursorcolumn
+set scrolloff=1000
+
+""" #### editing
+" set backspace=indent,eol,start
+set virtualedit=block
+set history=100
+set wrapscan
+set noexpandtab
+set tabstop=4
+set shiftwidth=4
+set iskeyword+=-
+
+""" commandline-mode
+" set wildchar=<C-Z>
 
 " for plugins #### ========================================
 " for plugin pathogen #### ======================================== 
