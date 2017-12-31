@@ -1,23 +1,27 @@
 *hist*
 *log*
-.git/config
-.CFUserTextEncoding
-.*xml
 .*swp
+.*xml
+.CFUserTextEncoding
+.DS_Store
+.android
 .bash_sessions
 .boto
-#.config
-.gsutil
-.viminfo
-.DS_Store
 .cache
-.ssh/google_compute_known_hosts
+.git/config
 .gitconfig
+.gsutil
+.ssh/google_compute_known_hosts
+.viminfo
 
 Applications
 Desktop
 Documents
 Downloads
+Dropbox
+OneDrive
+AndroidStudioProjects
+Google *
 Library
 Movies
 Music
@@ -43,13 +47,18 @@ commands/
 .config/com.add0n.node/
 .config/fish/completions/
 .config/fish/conf.d/
-.config/fish/config.fish.backup
-.config/fish/fishd.d0817aa2dc1a
+.config/fish/*.backup
+.config/fish/fishd.*
 .config/fish/fishfile
 .config/fish/functions/
 .config/fisherman/
 .config/gcloud/
 .config/karabiner/
+.config/.mono
+.config/menus
+.dropbox
+.gradle
+.wine 
 
 .subversion/
 .terraform.d/
