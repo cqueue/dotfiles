@@ -14,21 +14,22 @@
 .ssh/google_compute_known_hosts
 .viminfo
 
+AndroidStudioProjects
 Applications
 Desktop
 Documents
 Downloads
 Dropbox
-OneDrive
-AndroidStudioProjects
 Google *
 Library
 Movies
 Music
+OneDrive
 Pictures
 Public
-tools
 sandbox
+tmp
+tools
 .Trash
 .local/
 .rnd
