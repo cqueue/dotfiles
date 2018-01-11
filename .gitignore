@@ -13,6 +13,7 @@
 .gsutil
 .ssh/google_compute_known_hosts
 .viminfo
+.vagrant.d
 
 AndroidStudioProjects
 Applications
@@ -30,6 +31,7 @@ Public
 sandbox
 tmp
 tools
+VirtualBox VMs
 .Trash
 .local/
 .rnd

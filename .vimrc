@@ -40,10 +40,12 @@ set autochdir
 """ #### window setting
 set cursorline
 set cursorcolumn
-set scrolloff=1000
+"set scrolloff=1000
+set scrolloff=0
 
 """ #### editing
 " set backspace=indent,eol,start
+set ambiwidth=double " for Japanese Input
 set virtualedit=block
 set history=100
 set wrapscan

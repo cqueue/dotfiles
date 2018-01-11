@@ -40,6 +40,7 @@ call dein#add('Shougo/neocomplete.vim')
 
 call dein#add('scrooloose/nerdtree')
 
+call dein#add('tpope/vim-surround')
 
 "End dein Scripts-------------------------
 
