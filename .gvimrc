@@ -14,4 +14,4 @@ let IM_CtrlMode = 4
 inoremap <silent> <C-j> <C-^><C-r>=IMState('FixMode')<CR>
 
 " typewriter-scroll
-set scrolloff=9999
+"set scrolloff=9999

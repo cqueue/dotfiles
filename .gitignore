@@ -14,6 +14,10 @@
 .ssh/google_compute_known_hosts
 .viminfo
 .vagrant.d
+.eclipse/
+.m2/
+.oracle_jre_usage/
+.tooling/
 
 AndroidStudioProjects
 Applications
@@ -27,6 +31,7 @@ Movies
 Music
 OneDrive
 Pictures
+projects
 Public
 sandbox
 tmp

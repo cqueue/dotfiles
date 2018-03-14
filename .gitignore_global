@@ -2,3 +2,12 @@
 .vscode/
 .idea/
 .lesshst
+*.swp
+*.tfstate*
+*tmp*
+.terraform/
+*.log
+.settings
+.project
+.classpath
+
